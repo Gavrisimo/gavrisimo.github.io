@@ -1,0 +1,13 @@
+# Site settings
+title: Freelance web developer
+email: milos@gavrilovic.rs
+name: Miloš Gavrilović
+description: "Freelance web developer"
+baseurl: ""
+url: "http://gavrisimo.github.io"
+twitter_username: gavrisimo
+github_username:  gavrisimo
+
+# Build settings
+markdown: kramdown
+permalink: pretty

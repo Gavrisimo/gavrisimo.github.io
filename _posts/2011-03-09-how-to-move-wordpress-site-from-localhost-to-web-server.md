@@ -1,0 +1,29 @@
+---
+title: How to move wordpress site from localhost to web server?
+author: Miloš Gavrilović
+layout: post
+permalink: /how-to-move-wordpress-site-from-localhost-to-web-server/
+categories:
+  - Wordpress
+---
+With only 3 SQL queries! <img src="http://milos.gavrilovic.rs/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+
+Just move every file from your localhost to web server via ftp, then export wordpress database from localhost and import it on your web server.
+
+After that all you have to do is run these 3 SQL queries:
+
+<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_options SET option_value = replace( option_value, 'http://localhost', 'http://web-server' ) WHERE option_name = 'home' OR option_name = 'siteurl';
+UPDATE wp_posts SET guid = replace(guid, 'http://localhost','http://web-server');
+UPDATE wp_posts SET post_content = replace(post_content, 'http://localhost','http://web-server');</pre>
+
+Just replace http://localhost with whatever you have in your database, it can be any of these:
+
+1.  localhost
+2.  http://localhost
+3.  127.0.0.1
+4.  http://127.0.0.1
+5.  etc&#8230;
+
+If you are not sure what value you have there, you can run this SQL query to check that out:
+
+<pre class="brush: sql; title: ; notranslate" title="">SELECT option_value FROM wp_options WHERE option_name = 'siteurl'</pre>
