@@ -11,3 +11,6 @@ github_username:  gavrisimo
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Site configuration
+paginate: 5
