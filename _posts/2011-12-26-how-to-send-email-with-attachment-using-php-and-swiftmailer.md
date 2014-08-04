@@ -3,17 +3,15 @@ title: How to send email with attachment using php and swiftmailer?
 author: Miloš Gavrilović
 layout: post
 permalink: /how-to-send-email-with-attachment-using-php-and-swiftmailer/
-categories:
-  - PHP
-  - Tips
 ---
-If you have some contact form(or just any form) where you need to have &#8216;upload file' field(s) and you must do that in PHP &#8211; this article might help you.
+If you have some contact form(or just any form) where you need to have `upload file` field(s) and you must do that in PHP, this article might help you.
 
-Almost every tutorial I found while googling for a solution is a lot of spaghetti code. That's why I decided to use swiftmailer, which makes code pretty self explanatory &#8211; so dig in.
+Almost every tutorial I found while googling for a solution is a lot of spaghetti code. That's why I decided to use swiftmailer, which makes code pretty self explanatory, so dig in!
 
-Library used is <a title="http://swiftmailer.org/" href="http://swiftmailer.org/" target="_blank">swiftmailer</a> which you need to <a title="http://swiftmailer.org/download" href="http://swiftmailer.org/download" target="_blank">download</a> and upload to your server. Also it has with <a title="http://swiftmailer.org/docs/introduction.html" href="http://swiftmailer.org/docs/introduction.html" target="_blank">excellent docs</a>.
+Library used is [swiftmailer](http://swiftmailer.org/) which you need to download and upload to your server. Also it has excellent docs!
 
-<pre class="brush: php; title: ; notranslate" title="">require_once 'swiftmailer/swift_required.php';
+{% highlight php linenos %}
+require_once 'swiftmailer/swift_required.php';
 
 if ( // Maybe add some validation here, like check for value of some hidden field or whatever ) {
 
@@ -82,6 +80,5 @@ if ( // Maybe add some validation here, like check for value of some hidden fiel
             }
         }
     }
-
 }
-</pre>
+{% endhighlight %}
