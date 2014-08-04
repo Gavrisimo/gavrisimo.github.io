@@ -18,9 +18,9 @@ Is there a better way to start new year then to install excellent and **free** W
 
 Thanks WooThemes!
 
-After resolving my ruby and ruby on rails issues I was having entire day on my Ubuntu 10.10, which was resolved by re-installing Ubuntu, I decided that I&#8217;m either going to find some amazing theme for WordPress or I&#8217;m going to delete WordPress and put some portfolio.html file&#8230;
+After resolving my ruby and ruby on rails issues I was having entire day on my Ubuntu 10.10, which was resolved by re-installing Ubuntu, I decided that I'm either going to find some amazing theme for WordPress or I'm going to delete WordPress and put some portfolio.html file...
 
-So after maybe an hour or so i finally found this theme called **Irresistible **and i just love it!
+So after maybe an hour or so I finally found this theme called **Irresistible **and I just love it!
 
 This theme was created by good folks at <a href="http://www.woothemes.com/" target="_blank">woothemes.com</a> and you can download it here:
 

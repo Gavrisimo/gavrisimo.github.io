@@ -6,11 +6,11 @@ permalink: /dropdown-menu-where-menu-is-not-child-of-the-navigation-item/
 categories:
   - Tips
 ---
-It&#8217;s easy to have dropdown using jQuery .hide() and .show() when dropdown menu is child element to the navigation element that is being click on, or hovered because when you move your mouse to the dropdown menu, you are still on that navigation item, so mouseleave wasn&#8217;t called yet, and that&#8217;s when you want to actually hide the dropdown menu.
+It's easy to have dropdown using jQuery .hide() and .show() when dropdown menu is child element to the navigation element that is being click on, or hovered because when you move your mouse to the dropdown menu, you are still on that navigation item, so mouseleave wasn't called yet, and that's when you want to actually hide the dropdown menu.
 
-It&#8217;s just a little bit harder to do that when you have navigation item and dropdown menu totally separated, for example if dropdown menu is positioned absolutely below the navigation in order to have 100% width of the window.
+It's just a little bit harder to do that when you have navigation item and dropdown menu totally separated, for example if dropdown menu is positioned absolutely below the navigation in order to have 100% width of the window.
 
-This is just copy/paste for this functionality from one of the projects I&#8217;m working on:
+This is just copy/paste for this functionality from one of the projects I'm working on:
 
 <pre class="brush: jscript; title: ; notranslate" title="">var navigation_timer = null;
 

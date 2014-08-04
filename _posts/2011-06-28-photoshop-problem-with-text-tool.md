@@ -6,7 +6,7 @@ permalink: /photoshop-problem-with-text-tool/
 categories:
   - Random
 ---
-Recently i had some problems with text tool in Photoshop and after 2-3 reinstalls and no luck in googling for solution, i finally managed to find some article that helped me!
+Recently I had some problems with text tool in Photoshop and after 2-3 reinstalls and no luck in googling for solution, I finally managed to find some article that helped me!
 
 So solution is this:
 

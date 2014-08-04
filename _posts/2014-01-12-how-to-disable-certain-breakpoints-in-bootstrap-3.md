@@ -6,7 +6,7 @@ permalink: /how-to-disable-certain-breakpoints-in-bootstrap-3/
 categories:
   - Tips
 ---
-It&#8217;s really easy, you just need to edit one file!
+It's really easy, you just need to edit one file!
 
 So, go ahead and open `_grid.scss`, or `_grid.less` if you are using normal less version, and find this part:
 

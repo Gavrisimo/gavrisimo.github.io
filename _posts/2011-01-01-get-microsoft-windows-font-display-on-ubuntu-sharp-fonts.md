@@ -22,7 +22,7 @@ http://www.amitash.com/microsoft-windows-font-display-ubuntu-sharp-fonts.html
 
 You just install microsoft fonts via synaptic, download some .conf files and move those file into /etc/fonts and your sites are beautiful again! :)
 
-One thing thought, i was having some permission issues when i tried to move those new files into /etc/files so i had to use terminal:
+One thing thought, I was having some permission issues when I tried to move those new files into /etc/files so I had to use terminal:
 
 <pre class="brush: plain; title: ; notranslate" title="">sudo mv -i /home/gavra/Downloads/conf/* /etc/fonts</pre>
 

@@ -22,7 +22,7 @@ Just replace http://localhost with whatever you have in your database, it can be
 2.  http://localhost
 3.  127.0.0.1
 4.  http://127.0.0.1
-5.  etc&#8230;
+5.  etc...
 
 If you are not sure what value you have there, you can run this SQL query to check that out:
 

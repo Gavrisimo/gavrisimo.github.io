@@ -7,9 +7,9 @@ categories:
   - PHP
   - Tips
 ---
-If you have some contact form(or just any form) where you need to have &#8216;upload file&#8217; field(s) and you must do that in PHP &#8211; this article might help you.
+If you have some contact form(or just any form) where you need to have &#8216;upload file' field(s) and you must do that in PHP &#8211; this article might help you.
 
-Almost every tutorial i found while googling for a solution is a lot of spaghetti code. That&#8217;s why i decided to use swiftmailer, which makes code pretty self explanatory &#8211; so dig in.
+Almost every tutorial I found while googling for a solution is a lot of spaghetti code. That's why I decided to use swiftmailer, which makes code pretty self explanatory &#8211; so dig in.
 
 Library used is <a title="http://swiftmailer.org/" href="http://swiftmailer.org/" target="_blank">swiftmailer</a> which you need to <a title="http://swiftmailer.org/download" href="http://swiftmailer.org/download" target="_blank">download</a> and upload to your server. Also it has with <a title="http://swiftmailer.org/docs/introduction.html" href="http://swiftmailer.org/docs/introduction.html" target="_blank">excellent docs</a>.
 

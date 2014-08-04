@@ -6,9 +6,9 @@ permalink: /how-to-start-with-symfony-2-on-windows-7/
 categories:
   - PHP
 ---
-This task can be little bit scary at first, but it is really, really simple to do&#8230; <img src="http://milos.gavrilovic.rs/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+This task can be little bit scary at first, but it is really, really simple to do... <img src="http://milos.gavrilovic.rs/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
 
-*Disclaimer: This is more of a reminder for me then what you might call &#8220;tutorial&#8221;&#8230;*
+*Disclaimer: This is more of a reminder for me then what you might call &#8220;tutorial&#8221;...*
 
 1.  Download latest version of <a title="http://www.easyphp.org/download.php" href="http://www.easyphp.org/download.php" target="_blank">EasyPHP</a>, install it and then start it.
 2.  In order to add php to your path follow <a title="http://www.php.net/manual/en/faq.installation.php#faq.installation.addtopath" href="http://www.php.net/manual/en/faq.installation.php#faq.installation.addtopath" target="_blank">these</a> steps.
@@ -20,7 +20,7 @@ This task can be little bit scary at first, but it is really, really simple to d
 8.  Locate php\_apc.dll and php\_intl.dll and enable both of them. After that just restart EasyPHP.
 9.  Open Apache folder inside %EasyPHP% and copy php.ini to C:/Windows
 
-Now when you go to web/config.php you won&#8217;t see any warnings and you can easily follow instructions in <a title="http://symfony.com/doc/current/book/index.html" href="http://symfony.com/doc/current/book/index.html" target="_blank"><strong>The Book</strong></a> and you can even use all those commands to auto generate bundles and whatnot in those examples&#8230; <img src="http://milos.gavrilovic.rs/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+Now when you go to web/config.php you won't see any warnings and you can easily follow instructions in <a title="http://symfony.com/doc/current/book/index.html" href="http://symfony.com/doc/current/book/index.html" target="_blank"><strong>The Book</strong></a> and you can even use all those commands to auto generate bundles and whatnot in those examples... <img src="http://milos.gavrilovic.rs/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
 
 After you complete step #9 you can do these commands:
 

@@ -18,10 +18,10 @@ After googling for a little bit for a solution on how to fix this, I have found 
 /etc/init.d/apache2 restart
 </pre>
 
-It&#8217;s really that simple!
+It's really that simple!
 
 Now, when you go to admin panel and you try to do auto upgrade of WordPress, you will be presented with third option &#8220;SSH2&#8243;.
 
 ### UPDATE 22.02.2014
 
-For some reason this solution didn&#8217;t work for me on Ubuntu 13.10 so I ended up just using plugin called <a href="http://wordpress.org/plugins/ssh-sftp-updater-support/" target="_blank">SSH SFTP Updater Support</a>
+For some reason this solution didn't work for me on Ubuntu 13.10 so I ended up just using plugin called <a href="http://wordpress.org/plugins/ssh-sftp-updater-support/" target="_blank">SSH SFTP Updater Support</a>
