@@ -29,13 +29,13 @@ After you complete step #9 you can do these commands:
 Use `Doctrine Fixtures extension and bundle` to generate dummy content fast:
 
 1. Add following lines to `deps` file located in your project root:
-{% highlight linenos %}
+{% highlight bash %}
 [doctrine-fixtures]
 	git=http://github.com/doctrine/data-fixtures.git
 [DoctrineFixturesBundle]
 	git=http://github.com/symfony/DoctrineFixturesBundle.git
 	target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
-{% endhighlight linenos %}
+{% endhighlight %}
 3. Run this command to update your vendors: `php bin/vendors install`
 4. Open `app/autoloader.php` and above this line: `Doctrine\Common' => __DIR__.'/../vendor/doctrine-common/lib'` add this line: `'Doctrine\Common\DataFixtures' => __DIR__.'/../vendor/doctrine-fixtures/lib'`
 5. Open `app/AppKernel.php` and register new bundle: `new SymfonyBundleDoctrineFixturesBundleDoctrineFixturesBundle()`
