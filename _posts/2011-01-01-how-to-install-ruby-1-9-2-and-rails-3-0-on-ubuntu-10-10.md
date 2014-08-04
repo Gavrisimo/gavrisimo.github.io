@@ -6,7 +6,7 @@ permalink: /how-to-install-ruby-1-9-2-and-rails-3-0-on-ubuntu-10-10/
 categories:
   - Random
 ---
-If you are newbie on linux you might run into the same problem I had. I tried to install ruby and then ruby on rails by compiling source code of ruby and then just try gem install rails. Everything worked until I tried that command. I was getting that awful &#8220;no such file to load &#8212; zlib&#8221; error &#8211; hey I'm still newbie I have no idea what that is! :)
+If you are newbie on linux you might run into the same problem I had. I tried to install ruby and then ruby on rails by compiling source code of ruby and then just try gem install rails. Everything worked until I tried that command. I was getting that awful `no such file to load zlib` error - hey I'm still newbie I have no idea what that is! :)
 
 So many hours later I found solution, both as a wall of text and as a screen cast!
 
@@ -16,8 +16,8 @@ So that's what I did! :)
 
 With fresh Ubuntu 10.10 installed I went straight back to page which was given to me in #rubyonrails irc channel by some random(for me) cool dude. In comments I found a link to a screen cast of the same thing, so enjoy:
 
-1.  Wall of text version &#8211; <a href="http://ryanbigg.com/2010/12/ubuntu-ruby-rvm-rails-and-you" target="_blank">http://ryanbigg.com/2010/12/ubuntu-ruby-rvm-rails-and-you</a>
-2.  Screen cast version &#8211; <a href="http://www.rubyinside.com/how-to-install-ruby-1-9-2-and-rails-3-0-on-ubuntu-10-10-4148.html" target="_blank">http://www.rubyinside.com/how-to-install-ruby-1-9-2-and-rails-3-0-on-ubuntu-10-10-4148.html</a>
+1.  Wall of text version - [http://ryanbigg.com/2010/12/ubuntu-ruby-rvm-rails-and-you](http://ryanbigg.com/2010/12/ubuntu-ruby-rvm-rails-and-you)
+2.  Screen cast version - [http://www.rubyinside.com/how-to-install-ruby-1-9-2-and-rails-3-0-on-ubuntu-10-10-4148.html](http://www.rubyinside.com/how-to-install-ruby-1-9-2-and-rails-3-0-on-ubuntu-10-10-4148.html)
 
 I ended up following screen cast version and it worked!
 
