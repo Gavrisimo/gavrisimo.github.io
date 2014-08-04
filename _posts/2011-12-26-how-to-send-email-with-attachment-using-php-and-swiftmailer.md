@@ -11,6 +11,7 @@ Almost every tutorial I found while googling for a solution is a lot of spaghett
 Library used is [swiftmailer](http://swiftmailer.org/) which you need to download and upload to your server. Also it has excellent docs!
 
 {% highlight php linenos %}
+<?php
 require_once 'swiftmailer/swift_required.php';
 
 if ( // Maybe add some validation here, like check for value of some hidden field or whatever ) {
