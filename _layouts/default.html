@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-    <body>
+    {% include head.html %}
+<body>
 
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
+        <div class="wrap">
+            {{ content }}
+        </div>
     </div>
 
     {% include footer.html %}
 
-    </body>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '53e0144eeddd5b3630000305');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+</body>
 </html>
