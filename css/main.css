@@ -408,3 +408,9 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+.page-navigation .prev-post { float: left; width: 50%; }
+.page-navigation .next-post { float: right; text-align: right; width: 50%; }
