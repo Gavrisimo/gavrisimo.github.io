@@ -3,16 +3,6 @@ title: Brand new look for brand new year!
 author: Miloš Gavrilović
 layout: post
 permalink: /brand-new-look-for-brand-new-year/
-seo_follow:
-  - 'false'
-standard_seo_post_level_layout:
-  - 1
-standard_link_url_field:
-  -
-standard_seo_post_meta_description:
-  -
-categories:
-  - Wordpress
 ---
 Is there a better way to start new year then to install excellent and *free* WordPress theme?!?
 

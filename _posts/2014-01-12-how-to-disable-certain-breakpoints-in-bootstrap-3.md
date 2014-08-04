@@ -10,7 +10,8 @@ It's really easy, you just need to edit one file!
 
 So, go ahead and open `_grid.scss`, or `_grid.less` if you are using normal less version, and find this part:
 
-<pre class="brush: css; title: ; notranslate" title="">.container {
+{% highlight css linenos %}
+.container {
   @include container-fixed();
 
   @media (min-width: $screen-sm-min) {
@@ -23,11 +24,12 @@ So, go ahead and open `_grid.scss`, or `_grid.less` if you are using normal less
     width: $container-lg;
   }
 }
-</pre>
+{% endhighlight %}
 
 So if you want to remove large version, just remove or comment that last part, so you have something like this:
 
-<pre class="brush: css; title: ; notranslate" title="">.container {
+{% highlight css linenos %}
+.container {
   @include container-fixed();
 
   @media (min-width: $screen-sm-min) {
@@ -37,13 +39,14 @@ So if you want to remove large version, just remove or comment that last part, s
     width: $container-md;
   }
 }
-</pre>
+{% endhighlight %}
 
-That will remove styling for .container on screens larger then 992px.
+That will remove styling for `.container` on screens larger then `992px`.
 
 Next we need to remove columns for large displays. At the bottom of the same file there is this part:
 
-<pre class="brush: css; title: ; notranslate" title="">// Large grid
+{% highlight css linenos %}
+// Large grid
 //
 // Columns, offsets, pushes, and pulls for the large desktop device range.
 
@@ -54,6 +57,6 @@ Next we need to remove columns for large displays. At the bottom of the same fil
   @include make-grid($grid-columns, lg, push);
   @include make-grid($grid-columns, lg, offset);
 }
-</pre>
+{% endhighlight %}
 
-Just go ahead and remove it or comment it out. That should remove .col-lg-* classes from your compiled .css file.
+Just go ahead and remove it or comment it out. That should remove `.col-lg-*` classes from your compiled `.css` file.

@@ -43,7 +43,7 @@ if ( // Maybe add some validation here, like check for value of some hidden fiel
         }
 
         if ( ! $extensionAllowed ) {
-            $errors .= "The uploaded file is not supported file type. Only the following file types are supported: " . implode(',',$allowedExtensions) . " rn";
+            $errors .= "The uploaded file is not supported file type. Only the following file types are supported: " . I'mplode(',',$allowedExtensions) . " rn";
         } else {
             $pathOfUploadedFile = "some-writable-directory/$uploadedFileName";
 

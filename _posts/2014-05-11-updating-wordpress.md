@@ -2,17 +2,15 @@
 title: Updating WordPress
 author: Miloš Gavrilović
 layout: post
-permalink: /updating-wordpress/
-categories:
-  - Wordpress
+permalink: /updating-WordPress/
 ---
-Ever since moving to VPS hosting I had some issues with updating WordPress that I just didn't spend enough time looking into, maybe because I was lazy... Today I finally fixed that!
+Ever since moving to VPS hosting I had some issues with updating WordPress that I just didn't spend enough tI'me looking into, maybe because I was lazy... Today I finally fixed that!
 
 The issue I was having is that whenever I was trying to update something in `wp-admin`, be it WP core or some plugin or theme, it always asked me for FTP credentials. Since I was lazy, I just gave it my `root:password` combo and continued with my life.
 
-Of course FTP didn't really work on my VPS, i.e. I didn't want to use it, so I had to find a way for WP to use ssh/sftp, which I explained here: [http://milos.gavrilovic.rs/how-to-enable-wordpress-auto-update-with-sftp/]
+Of course FTP didn't really work on my VPS, i.e. I didn't want to use it, so I had to find a way for WP to use ssh/sftp, which I explained here: [http://milos.gavrilovic.rs/how-to-enable-WordPress-auto-update-with-sftp/](http://milos.gavrilovic.rs/how-to-enable-WordPress-auto-update-with-sftp/)
 
-The solution now looks so simple that I just can't believe I didn't find out about it earlier...
+The solution now looks so sI'mple that I just can't believe I didn't find out about it earlier...
 
 All you need to do is add this line to your `wp-config.php` file:
 
