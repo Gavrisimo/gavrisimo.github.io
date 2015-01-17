@@ -1,7 +1,7 @@
 ---
 title: About me
 author: Miloš Gavrilović
-layout: page
+layout: default
 ---
 My name is Miloš and currently I live in Belgrade, Serbia.
 
