@@ -1,8 +1,8 @@
 # Site settings
-title: Freelance web developer
-email: milos@gavrilovic.rs
-name: Miloš Gavrilović
-description: "Freelance web developer"
+title:
+name:
+email:
+description:
 baseurl: ""
 url: "http://milos.gavrilovic.rs"
 twitter_username: gavrisimo
