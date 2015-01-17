@@ -1,42 +1,13 @@
 ---
-layout: default
+title: About me
+author: Miloš Gavrilović
+layout: page
 ---
+My name is Miloš and currently I live in Belgrade, Serbia.
 
-<div class="home">
+<a href="http://www.last.fm/user/gavrisimo" target="_blank">I love all sorts of music</a>, working as freelance web developer, [play video games][1] and try to contribute to <a href="https://github.com/gavrisimo" target="_blank">OSS</a>(Open-source software) as much as I can.
 
-    <h1>Posts</h1>
+[Feel free to contact me if you want to know more.][2]
 
-    <ul class="posts">
-        {% for post in paginator.posts %}
-            <li>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-
-    {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-            {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-            {% endif %}
-
-            {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                    <em>{{ page }}</em>
-                {% elsif page == 1 %}
-                    <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-                {% else %}
-                    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-                {% endif %}
-            {% endfor %}
-
-            {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-            {% endif %}
-        </div>
-    {% endif %}
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+ [1]: http://steamcommunity.com/id/gavrisimo
+ [2]: http://milos.gavrilovic.rs/contact/ "Contact me"
